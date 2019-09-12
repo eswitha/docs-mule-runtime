@@ -32,7 +32,7 @@ strings get coerced to numbers.
 %dw 2.0
 output application/json
 ---
-[ isLeapYear(locDT1), isLeapYear(locDT2), isInteger("1") ]
+[ isInteger('1.1'), isInteger('1.0'), isInteger("1") ]
 ----
 
 ==== Output
